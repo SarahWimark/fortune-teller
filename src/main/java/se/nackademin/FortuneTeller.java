@@ -18,7 +18,7 @@ public class FortuneTeller {
      *
      */
     public String calculate() {
-        int a,b, c, d, e;
+        int a, b, c, d, e;
         a = magicNumbers.calculateA();
         b = magicNumbers.calculateB();
         c = magicNumbers.calculateC();
