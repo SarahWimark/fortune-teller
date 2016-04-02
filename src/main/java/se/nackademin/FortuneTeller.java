@@ -25,7 +25,6 @@ public class FortuneTeller {
         d = magicNumbers.calculateD();
         e = magicNumbers.calculateE();
         String fortune = translator.getFortune(a, b, c, d, e);
-        //TODO: Implement
         return fortune;
     }
 

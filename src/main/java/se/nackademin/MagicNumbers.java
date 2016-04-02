@@ -42,7 +42,7 @@ public class MagicNumbers {
         else{
             result += calculateC();
         }
-        result = result - income;
+        result -= income;
         while(result < 0){
            result += 10;
         }
